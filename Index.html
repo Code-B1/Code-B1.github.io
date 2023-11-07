@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>Storm Cloud Networks - IT Services & Telecommunications Experts</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <script type="text/javascript" src="scripts.js"></script> 
+        <script type="text/javascript" src="deferredScript.js" defer></script>
+    </head>
+    <body>
+        <div class="navContainer">
+            <div class="navBarLogoContainer">
+                <img src="assets/images/SCNBlack.png">
+            </div>
+            <div class="topnav" id="myTopnav">
+                <a href="Index.html" class="active">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn" id="dropBtn">Services 
+                      <i class="fa fa-caret-down" id="servicesChevron" style="margin-left: 8px;"></i>
+                    </button>
+                    <div class="dropdown-content" id="dropContent">
+                        <a href="ITServices.html">IT Services</a>
+                        <a href="Telecommunications.html">Telecommunications</a>
+                        <a href="DispatchSolutions.html">Taxi Dispatch Solutions</a>
+                        <a href="Energy.html">Energy</a>
+                        <a href="PhoneSystems.html">Phone Systems</a>
+                        <a href="WebAppDevelopment.html">Website And App Development</a>
+                    </div>
+                </div> 
+                <a href="AboutUs.html">About Us</a>
+                <a href="ContactUs.html">Contact Us</a>
+                <a href="javascript:void(0);" class="icon">
+                    <input type="checkbox" id="checkbox1" class="checkbox1 visuallyHidden" onclick="navBarClick()">
+                    <label for="checkbox1">
+                        <div class="hamburger hamburger1">
+                            <span class="bar bar1"></span>
+                            <span class="bar bar2"></span>
+                            <span class="bar bar3"></span>
+                            <span class="bar bar4"></span>
+                        </div>
+                    </label>
+                </a>
+            </div>
+            <div class="emptyDiv"></div>
+        </div>
+        <div class="banner">
+            <div class="clouds">
+                <div class="animation">
+                  <div class="cloud cloud1" style="background-image: url(assets/images/clouds_1.png);"></div>
+                  <div class="cloud cloud2" style="background-image: url(assets/images/clouds_2.png);"></div>
+                  <div class="cloud cloud3" style="background-image: url(assets/images/clouds_3.png);"></div>
+                </div>
+                <div class="container">
+                  <h2>Storm Cloud Networks</h2>
+                  <div class="divider"></div>
+                  <p>Harness The Power Of The Storm.</p>
+                  <a href="#services"><button class="btn">Our Services</button></a>
+                </div>
+              </div>
+        </div>
+        <div class="chooseUsContainer">
+            <h2>Why Choose Us</h2>
+            <div class="dividerTwo"></div>
+            <div style="max-width: 90%;">
+                <p>We have been providing Telecommunications and IT solutions across various industries for many years</p>
+            </div>
+            <div class="cardsContainer">
+                <div class="chooseUsCard" id="chooseUsCardOne">
+                    <div class="chooseUsCardIcon">
+                        <img src="assets/images/speedometer.png">
+                    </div>
+                    <div class="chooseUsCardTitle">Performance & Reliability</div>
+                    <div class="chooseUsCardText">We understand the importance of reliable performance and that’s why we guarantee to make sure your solutions perform reliably.</div>
+                </div>
+                <div class="chooseUsCardTwo">
+                    <div class="chooseUsCardIcon">
+                        <img src="assets/images/customer-service.png">
+                    </div>
+                    <div class="chooseUsCardTitle">Support</div>
+                    <div class="chooseUsCardText">We offer great support. 
+                        Our team of experienced IT professionals can provide a range of services to ensure your systems are running optimally and securely.</div>  
+                </div>
+                <div class="chooseUsCard" id="chooseUsCardTwo">
+                    <div class="chooseUsCardIcon">
+                        <img src="assets/images/optimization.png">
+                    </div>
+                    <div class="chooseUsCardTitle">Optimization</div>
+                    <div class="chooseUsCardText">We specialise in optimising your business solutions to ensure that you gain the highest return on your investments.</div>
+                </div>
+            </div>
+        </div>
+        <div class="aboutUsContainer">
+            <div class="aboutUsGroup">
+                <div class="aboutUsImageBox" id="aboutUsImage">
+                    <img src="assets/images/supportworking.jpg">
+                </div>
+                <div class="aboutUsSection" style="opacity: 1;">
+                    <h2 id="homeH" class="hidden">Everyone Should Have Access To Reliable IT Services And Telecommunications</h2>
+                    <p id="homeP" class="hidden">That's why we offer a wide variety of services to meet your business needs. Our services include IT support, network installation, cabling, telephony, and internet services. 
+                        We specialize in providing businesses with the most reliable and cost-effective communication solutions.</p>
+                </div>
+            </div>           
+        </div>
+        <div class="resellerContainer">
+            <div class="resellerSection">
+                <h2>Authorized BT Reseller</h2>
+            </div>
+            <div class="resellerImageBox">
+                <img src="assets/images/BT_logo_2019.png">
+            </div>
+        </div>
+        <div class="statsContainer">
+            <div class="statsContainerStat">
+                <h1 class="counterAdd"><!--30+--></h1>
+                <h2>Customers</h2>
+            </div>
+            <div class="statsContainerStat">
+                <h1 class="counterAddTwo"><!--50+--></h1>
+                <h2>Solutions</h2>     
+            </div>
+            <div class="statsContainerStat">
+                <h1 class="counterAddThree"><!--500+--></h1>
+                <h2>Phone Lines</h2>
+            </div>
+        </div>
+        <a name="services"><div class="servicesContainer">
+            <h2>Our Services</h2>
+            <div class="dividerTwo"></div>
+            <div class="serviceGroupContainer">
+                <div class="serviceCardOne" id="serviceCardOne">
+                    <div class="serviceCard">
+                        <div class="serviceCardIcon">
+                            <img src="assets/images/itservices.png">
+                        </div>
+                        <h2>IT Services</h2>                       
+                        <p>From IT Support to network installation and server maintenance, we have the expertise to ensure that your technology needs are taken care of.</p>
+                        <div class="serviceCardButton" onclick="location.href='ITServices.html'">
+                            LEARN MORE
+                            <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                                <path d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="serviceCardTwo" id="serviceCardTwo">
+                    <div class="serviceCard">
+                        <div class="serviceCardIcon">
+                            <img src="assets/images/tele.png">
+                        </div>
+                        <h2>Telecommunications</h2>
+                        <p>We offer reliable telecommunications solutions that ensure that your business can stay connected no matter where you are.</p>
+                        <div class="serviceCardButton" onclick="location.href='Telecommunications.html'">
+                            LEARN MORE
+                            <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                                <path d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="serviceCardTwo" id="serviceCardThree">
+                    <div class="serviceCard">
+                        <div class="serviceCardIcon">
+                            <img src="assets/images/taxi.png">
+                        </div>
+                        <h2>Taxi Dispatch Solutions</h2>
+                        <p>For many years, we have been providing comprehensive taxi dispatch solutions to businesses across the UK.</p>
+                        <div class="serviceCardButton" onclick="location.href='DispatchSolutions.html'">
+                            LEARN MORE
+                            <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                                <path d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="serviceCardTwo" id="serviceCardFour">
+                    <div class="serviceCard">
+                        <div class="serviceCardIcon">
+                            <img src="assets/images/energy.png">
+                        </div>
+                        <h2>Energy</h2>
+                        <p>Do you feel like you're spending too much on energy bills? Are you looking for a better way to manage your energy costs? We can help.</p>
+                        <div class="serviceCardButton" onclick="location.href='Energy.html'">
+                            LEARN MORE
+                            <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                                <path d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="serviceCardTwo" id="serviceCardFive">
+                    <div class="serviceCard">
+                        <div class="serviceCardIcon">
+                            <img src="assets/images/phone.png">
+                        </div>
+                        <h2>Phone Systems</h2>
+                        <p>At Storm, we specialize in providing top quality phone systems for businesses of all sizes.</p>
+                        <div class="serviceCardButton" onclick="location.href='PhoneSystems.html'">
+                            LEARN MORE
+                            <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                                <path d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="serviceCardTwo" id="serviceCardSix">
+                    <div class="serviceCard">
+                        <div class="serviceCardIcon">
+                            <img src="assets/images/web-development.png">
+                        </div>
+                        <h2>Website & App Development</h2>
+                        <p>We provide tailored website and app development services to suit the needs of any business.</p>
+                        <div class="serviceCardButton" onclick="location.href='WebAppDevelopment.html'">
+                            LEARN MORE
+                            <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                                <path d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </div></a>
+        <div class="reviewsContainer">
+            <h2>What Our Customers Say...</h2>
+            <div class="reviewsGroup">
+                <div class="reviewsCard" id="reviewOne">
+                    <div class="starsContainer">
+                        <img src="assets/images/star.png">
+                        <img src="assets/images/star.png">
+                        <img src="assets/images/star.png">
+                        <img src="assets/images/star.png">
+                        <img src="assets/images/star.png">
+                    </div>
+                    <p>
+                        " Storm Cloud went the extra distance to understand our needs, building and installing a 
+                        solution that exceeded our requirements "
+                    </p>
+                    <div class="reviewsCustomerContainer">
+                        <img src="assets/images/eliteradiocars.png">
+                        <div class="reviewsNameContainer">
+                            <div>
+                                <h2>Mark Dubberley</h2>
+                            </div>
+                            <div>Elite Radio Cars</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviewsCard" id="reviewTwo">
+                    <div class="starsContainer">
+                        <img src="assets/images/star.png">
+                        <img src="assets/images/star.png">
+                        <img src="assets/images/star.png">
+                        <img src="assets/images/star.png">
+                        <img src="assets/images/star.png">
+                    </div>
+                    <p>
+                        " Storm they know the market and have the tools to do the job "
+                    </p>
+                    <div class="reviewsCustomerContainer">
+                        <img src="assets/images/bathtaxi.jpg">
+                        <div class="reviewsNameContainer">
+                            <div>
+                                <h2>Wayne Dixon</h2>
+                            </div>
+                            <div>Bath Spa Taxi</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviewsCard" id="reviewThree">
+                    <div class="starsContainer">
+                        <img src="assets/images/star.png">
+                        <img src="assets/images/star.png">
+                        <img src="assets/images/star.png">
+                        <img src="assets/images/star.png">
+                        <img src="assets/images/star.png">
+                    </div>
+                    <p>
+                        " Storm Cloud Networks have been supportive throughout; they know and understand
+                        our business. One important requirement was a single point of contact for all our needs... "
+                    </p>
+                    <div class="reviewsCustomerContainer">
+                        <img src="assets/images/fivestar.jpg">
+                        <div class="reviewsNameContainer">
+                            <div>
+                                <h2>Zafar Iqbal</h2>
+                            </div>
+                            <div>Five Star Cars</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <div class="footerContainer">
+            <div class="footerContainerGroup">
+                <div class="footerSection">
+                    <div class="footerLogoContainer">
+                        <img src="assets/images/SCNWhiteText.png">
+                    </div>
+                    <div class="social-buttons">
+                        <a href="https://twitter.com/StormCNSales" class="social-button github">
+                            <svg viewBox="0 0 16 16" class="bi bi-twitter" height="16" width="16" xmlns="http://www.w3.org/2000/svg"> <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path> </svg>
+                        </a>
+                        <a href="https://uk.linkedin.com/company/storm-cloud-networks-ltd" class="social-button linkedin">
+                            <svg viewBox="0 -2 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="Icons" stroke="none" stroke-width="1">
+                                    <g transform="translate(-702.000000, -265.000000)">
+                                        <path d="M746,305 L736.2754,305 L736.2754,290.9384 C736.2754,287.257796 734.754233,284.74515 731.409219,284.74515 C728.850659,284.74515 727.427799,286.440738 726.765522,288.074854 C726.517168,288.661395 726.555974,289.478453 726.555974,290.295511 L726.555974,305 L716.921919,305 C716.921919,305 717.046096,280.091247 716.921919,277.827047 L726.555974,277.827047 L726.555974,282.091631 C727.125118,280.226996 730.203669,277.565794 735.116416,277.565794 C741.21143,277.565794 746,281.474355 746,289.890824 L746,305 L746,305 Z M707.17921,274.428187 L707.117121,274.428187 C704.0127,274.428187 702,272.350964 702,269.717936 C702,267.033681 704.072201,265 707.238711,265 C710.402634,265 712.348071,267.028559 712.41016,269.710252 C712.41016,272.34328 710.402634,274.428187 707.17921,274.428187 L707.17921,274.428187 L707.17921,274.428187 Z M703.109831,277.827047 L711.685795,277.827047 L711.685795,305 L703.109831,305 L703.109831,277.827047 L703.109831,277.827047 Z" id="LinkedIn">
+                                        </path>
+                                    </g>
+                                </g>
+                          </svg>
+                        </a>
+                        <a href="https://www.facebook.com/Stormcloudnetworks/" class="social-button facebook">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 310 310" xml:space="preserve">
+                                <g id="XMLID_834_">
+                                    <path id="XMLID_835_" d="M81.703,165.106h33.981V305c0,2.762,2.238,5,5,5h57.616c2.762,0,5-2.238,5-5V165.765h39.064
+                                        c2.54,0,4.677-1.906,4.967-4.429l5.933-51.502c0.163-1.417-0.286-2.836-1.234-3.899c-0.949-1.064-2.307-1.673-3.732-1.673h-44.996
+                                        V71.978c0-9.732,5.24-14.667,15.576-14.667c1.473,0,29.42,0,29.42,0c2.762,0,5-2.239,5-5V5.037c0-2.762-2.238-5-5-5h-40.545
+                                        C187.467,0.023,186.832,0,185.896,0c-7.035,0-31.488,1.381-50.804,19.151c-21.402,19.692-18.427,43.27-17.716,47.358v37.752H81.703
+                                        c-2.762,0-5,2.238-5,5v50.844C76.703,162.867,78.941,165.106,81.703,165.106z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footerServices">
+                    <h2>Services</h2>
+                    <a href="ITServices.html">IT Services</a>
+                    <a href="Telecommunications.html">Telecommunications</a>
+                    <a href="DispatchSolutions.html">Taxi Dispatch Solutions</a>
+                    <a href="Energy.html">Energy</a>
+                    <a href="PhoneSystems.html">Phone Systems</a>
+                    <a href="WebAppDevelopment.html">Website And App Development</a>
+                </div>
+                <div class="footerContactUs">
+                    <h2>Contact Us</h2>
+                    <div>Phone:</div>
+                    <p>01934 310410</p>
+                    <br>
+                    <div>Email:</div>
+                    <br>
+                    <div>hello@stormcloudnetworks.co.uk</div>
+                    <br>
+                    <div>Office:</div>
+                    <br>
+                    <div>
+                        <div>Storm Cloud Networks</div>
+                        <div>8 The Centre</div>
+                        <div>Weston-super-Mare</div>
+                        <div>North Somerset</div>
+                        <div>BS23 1US</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="createdByContainer">
+            <div>Designed By</div>
+            <a href="https://code-b.co.uk">
+                <img src="assets/images/CodeBLogo.png">
+            </a>
+        </div>
+    </body>
+</html>
